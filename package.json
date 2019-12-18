@@ -1,8 +1,11 @@
 {
   "name": "eslint-ast-traverser",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "ESLint's default AST traversing utility",
   "main": "index.js",
+  "engines": {
+    "node": ">= 10.0.0"
+  },
   "files": [
     "index.js",
     "eslint.LICENSE"
