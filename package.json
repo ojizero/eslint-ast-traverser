@@ -1,6 +1,6 @@
 {
   "name": "eslint-ast-traverser",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "ESLint's default AST traversing utility",
   "main": "index.js",
   "engines": {

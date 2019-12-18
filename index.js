@@ -2,6 +2,9 @@
  * @fileoverview Traverser to traverse AST trees.
  * @author Nicholas C. Zakas
  * @author Toru Nagashima
+ *
+ * File originaly taken from the ESLint project from the following path
+ *    https://github.com/eslint/eslint/blob/257f3d67905a52bf8602a5a5707c893cc90d7ca7/lib/shared/traverser.js
  */
 'use strict';
 
