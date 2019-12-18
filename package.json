@@ -1,0 +1,51 @@
+{
+  "name": "eslint-ast-traverser",
+  "version": "0.0.0",
+  "description": "ESLint's default AST traversing utility",
+  "main": "index.js",
+  "files": [
+    "index.js",
+    "eslint.LICENSE"
+  ],
+  "scripts": {
+    "lint": "eslint --fix ./index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ojizero/eslint-ast-traverser.git"
+  },
+  "author": {
+    "name": "Ameer Alqam"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ojizero/eslint-ast-traverser/issues"
+  },
+  "homepage": "https://github.com/ojizero/eslint-ast-traverser#readme",
+  "dependencies": {
+    "debug": "^4.1.1",
+    "eslint-visitor-keys": "^1.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^6.7.2"
+  },
+  "eslintConfig": {
+    "extends": [
+      "eslint:recommended"
+    ],
+    "env": {
+      "commonjs": true,
+      "es6": true,
+      "node": true
+    },
+    "rules": {
+      "no-var": "error",
+      "prefer-const": "error",
+      "quotes": [
+        "error",
+        "single"
+      ]
+    }
+  }
+}
